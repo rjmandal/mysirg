@@ -4,22 +4,16 @@ int main()
 {
     system("cls");
     printf("enter two no ==>> ");
-    int n1, n2, i = 2, n;
+    int n1, n2, l;
     scanf("%d%d", &n1, &n2);
-    if (n1 >= n2)
-        n = n1;
-    else
-        n = n2;
-    while (i <= n)
+    for (l = n1 > n2 ? n1 : n2; l <= n1 * n2; l++)
     {
-        if (n1 % i == 0 && n2 % i == 0)
+        if (l % n1 == 0 && l % n2 == 0)
+        {
+            printf("%d", l);
             break;
-        i++;
+        }
     }
-    if (i == 1)
-        printf("no lcm found");
-    else
-        printf("%d",i);
     getch();
     return 0;
 }

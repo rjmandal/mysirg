@@ -4,7 +4,7 @@ int main()
 {
     system("cls");
     int n, i;
-    printf("enter two no ==>> ");
+    printf("enter no ==>> ");
     scanf("%d", &n);
     for (i = 1; i <= n; i++)
     {
