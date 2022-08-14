@@ -10,7 +10,6 @@ int main()
     {
         r=d*10+no%2;
         no=no/2;
-    cout<<r;
     }
     cout<<endl<<r<<endl;        
     while(r>0)
