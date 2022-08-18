@@ -12,6 +12,6 @@ int main()
 }
 float area(float x)
 {
-    x=3.14*x*x;
+    x=2*3.14*x;
     return x;
 }
