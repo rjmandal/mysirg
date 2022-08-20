@@ -3,7 +3,7 @@ void even(int);
 int main()
 {
     system("cls");
-    printf("enter the n no ");
+    printf("enter the n no ==>> ");
     int n;
     scanf("%d", &n);
     even(n);
@@ -11,7 +11,7 @@ int main()
 }
 void even(int no)
 {
-    for(int i=0;i<no;i++)
+    for(int i=1;i<=no;i++)
     {
         printf("%d\n",i*2);
     }
