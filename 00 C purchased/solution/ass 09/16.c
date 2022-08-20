@@ -25,11 +25,12 @@ void occurance(int no, int digit)
         if (ld != digit)
             r = r * 10 + ld;
     }
-    // while (r > 0)
-    // {
-    //     ld = no % 10;
-    //     r = r / 10;
-    //     r = r * 10 + ld;
-    // }
-    printf("%d", r);
+    while (r > 0)
+    {
+        ld = r % 10;
+        r = r / 10;
+        
+        i = i * 10 + ld;
+    }
+    printf("%d", i);
 }
